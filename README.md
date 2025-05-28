@@ -1,4 +1,4 @@
-<h4 align="center">Greetings 👋! My name is BadrEddine Abba and I'm a data scientist from Morocco</h4>
+<h4 align="center">Greetings 👋! My name is Badr Eddine Abba and I'm a data scientist from Morocco</h4>
 
 ###
 
