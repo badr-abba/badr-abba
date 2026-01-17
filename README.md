@@ -111,23 +111,6 @@ Always exploring new technologies and methodologies. Passionate about pushing bo
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Badr-abba&theme=gruvbox&hide_border=true&area=true" width="100%" alt="Activity Graph"/>
 </div>
-
----
-
-### 📫 Let's Connect
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/badreddineabba">
-    <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="https://discord.com/users/id">
-    <img src="https://img.shields.io/badge/-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
-  </a>
-  <a href="https://www.instagram.com/badreddine_abba/">
-    <img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
-  </a>
-</p>
-
 ---
 
 <div align="center">
