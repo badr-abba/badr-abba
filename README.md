@@ -1,11 +1,11 @@
 <!-- Header -->
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=83A598&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B%2C+I'm+Badr+Eddine+Abba;Data+Engineer+%7C+Pipeline+Architect;Building+Scalable+Data+Systems" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=83A598&center=true&vCenter=true&width=700&lines=Bonjour+%F0%9F%91%8B%2C+je+suis+Badr+Eddine+Abba;Ing%C3%A9nieur+Data+%7C+Architecte+Pipelines;Construire+des+syst%C3%A8mes+de+donn%C3%A9es+fiables" alt="Typing SVG" />
 </h1>
 
 ---
 
-### 👨‍💻 About Me
+### 👨‍💻 À propos de moi
 
 ```python
 class DataEngineer:
@@ -17,7 +17,7 @@ class DataEngineer:
         self.focus = ["Data Pipelines", "Distributed Systems", "Data Warehousing"]
 
     def say_hi(self):
-        print("Thanks for dropping by! Let's build reliable data systems together.")
+        print("Merci pour votre visite ! Construisons ensemble des systèmes de données robustes.")
 
 me = DataEngineer()
 me.say_hi()
@@ -25,7 +25,7 @@ me.say_hi()
 
 ---
 
-### 🛠️ Tech Stack
+### 🛠️ Stack Technique
 
 **Data Engineering & Processing**
 ```
@@ -42,23 +42,23 @@ PostgreSQL • MySQL • MongoDB • Delta Lake • Parquet • Iceberg • SQLi
 Azure • Docker • Linux • Git • Terraform • Firebase • GitHub Actions
 ```
 
-**Languages & Dev Tools**
+**Languages & Tools**
 ```
 Python • SQL • Java • Bash • TypeScript • JavaScript
 ```
 
 ---
 
-### 🎯 What I Do
+### 🎯 Ce que je fais
 
 <table>
 <tr>
 <td width="50%">
 
 #### 🔄 Data Pipeline Engineering
-Designing and building robust ETL/ELT pipelines that move, transform, and serve data at scale. From batch to streaming, I architect workflows that are reliable and observable.
+Conception et développement de pipelines ETL/ELT robustes pour déplacer, transformer et servir les données à grande échelle. Du batch au streaming, je construis des workflows fiables et observables.
 
-**Focus Areas:**
+**Domaines clés :**
 - Batch & Streaming Pipelines (Spark, Kafka)
 - Workflow Orchestration (Airflow)
 - Data Transformation (dbt, PySpark)
@@ -68,10 +68,10 @@ Designing and building robust ETL/ELT pipelines that move, transform, and serve 
 <td width="50%">
 
 #### 🏗️ Data Architecture & Warehousing
-Designing scalable data architectures that serve analysts and data scientists efficiently. Clean schemas, well-governed lakes, and performant warehouses.
+Conception d'architectures de données scalables au service des analystes et des data scientists. Des schémas propres, des Data Lakes bien gouvernés et des entrepôts performants.
 
-**Focus Areas:**
-- Data Warehouse Design (Star/Snowflake schemas)
+**Domaines clés :**
+- Data Warehouse Design (Star/Snowflake Schema)
 - Data Lake Architecture (Delta Lake, Iceberg)
 - Data Modeling & Normalization
 - Query Optimization & Indexing
@@ -82,9 +82,9 @@ Designing scalable data architectures that serve analysts and data scientists ef
 <td width="50%">
 
 #### ☁️ Cloud & Distributed Systems
-Deploying data infrastructure on cloud platforms with scalability and cost-efficiency in mind. Infrastructure as code, containerized workloads, automated deployments.
+Déploiement d'infrastructures de données sur le cloud avec scalabilité et maîtrise des coûts. Infrastructure as Code, charges de travail conteneurisées et déploiements automatisés.
 
-**Focus Areas:**
+**Domaines clés :**
 - Azure Data Services
 - Docker & Container Orchestration
 - Distributed Computing (Spark, Flink)
@@ -94,9 +94,9 @@ Deploying data infrastructure on cloud platforms with scalability and cost-effic
 <td width="50%">
 
 #### 📊 Data Quality & Observability
-Building systems that don't just move data — they validate, test, and document it. Reliable data is the foundation of every good decision.
+Des systèmes qui ne se contentent pas de déplacer les données — ils les valident, les testent et les documentent. Des données fiables sont le socle de toute bonne décision.
 
-**Focus Areas:**
+**Domaines clés :**
 - Data Validation & Testing
 - Schema Evolution Management
 - Data Lineage & Cataloging
@@ -123,5 +123,5 @@ Building systems that don't just move data — they validate, test, and document
 ---
 
 <p align="center">
-  <i>⚡ "Bad data in, bad decisions out — pipelines are the foundation of everything." ⚡</i>
+  <i>⚡ "De mauvaises données en entrée, de mauvaises décisions en sortie — les pipelines sont le fondement de tout." ⚡</i>
 </p>
