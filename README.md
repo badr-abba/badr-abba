@@ -1,6 +1,6 @@
 <!-- Header -->
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=83A598&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+Badr+Eddine+Abba;Data+Scientist+%7C+AI+Engineer;Building+Intelligent+Systems" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=83A598&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B%2C+I'm+Badr+Eddine+Abba;Data+Engineer+%7C+Pipeline+Architect;Building+Scalable+Data+Systems" alt="Typing SVG" />
 </h1>
 
 ---
@@ -8,17 +8,18 @@
 ### 👨‍💻 About Me
 
 ```python
-class DataScientist:
+class DataEngineer:
     def __init__(self):
         self.name = "Badr Eddine Abba"
-        self.role = "Data Scientist"
+        self.role = "Data Engineer"
         self.location = "Morocco 🇲🇦"
         self.education = "Mathematical & Computer Sciences"
-        
-    def say_hi(self):
-        print("Thanks for dropping by! Let's build something amazing together.")
+        self.focus = ["Data Pipelines", "Distributed Systems", "Data Warehousing"]
 
-me = DataScientist()
+    def say_hi(self):
+        print("Thanks for dropping by! Let's build reliable data systems together.")
+
+me = DataEngineer()
 me.say_hi()
 ```
 
@@ -26,19 +27,24 @@ me.say_hi()
 
 ### 🛠️ Tech Stack
 
-**Data Science & AI**
+**Data Engineering & Processing**
 ```
-Python • TensorFlow • PyTorch • Scikit-learn • Pandas • NumPy • OpenCV • Jupyter
-```
-
-**Development**
-```
-Java • C • JavaScript • TypeScript • React • Next.js • Node.js • Flask • Flutter
+Apache Spark • Apache Kafka • Apache Airflow • dbt • Pandas • PySpark • Flink
 ```
 
-**Tools & Infrastructure**
+**Data Warehousing & Storage**
 ```
-Git • Docker • Linux • Azure • Firebase • MySQL • MongoDB • SQLite
+PostgreSQL • MySQL • MongoDB • Delta Lake • Parquet • Iceberg • SQLite
+```
+
+**Cloud & Infrastructure**
+```
+Azure • Docker • Linux • Git • Terraform • Firebase • GitHub Actions
+```
+
+**Languages & Dev Tools**
+```
+Python • SQL • Java • Bash • TypeScript • JavaScript
 ```
 
 ---
@@ -49,52 +55,52 @@ Git • Docker • Linux • Azure • Firebase • MySQL • MongoDB • SQLite
 <tr>
 <td width="50%">
 
-#### 🤖 Machine Learning & AI
-Building intelligent systems using deep learning frameworks. From computer vision to NLP, I transform complex problems into elegant solutions.
+#### 🔄 Data Pipeline Engineering
+Designing and building robust ETL/ELT pipelines that move, transform, and serve data at scale. From batch to streaming, I architect workflows that are reliable and observable.
 
 **Focus Areas:**
-- Neural Networks & Deep Learning
-- Computer Vision (OpenCV, TensorFlow)
-- Predictive Analytics
-- Model Optimization
+- Batch & Streaming Pipelines (Spark, Kafka)
+- Workflow Orchestration (Airflow)
+- Data Transformation (dbt, PySpark)
+- Pipeline Monitoring & Alerting
 
 </td>
 <td width="50%">
 
-#### 📊 Data Science & Analytics
-Extracting insights from data to drive decision-making. I love finding patterns where others see noise.
+#### 🏗️ Data Architecture & Warehousing
+Designing scalable data architectures that serve analysts and data scientists efficiently. Clean schemas, well-governed lakes, and performant warehouses.
 
 **Focus Areas:**
-- Statistical Analysis
-- Data Visualization
-- ETL Pipelines
-- Business Intelligence
+- Data Warehouse Design (Star/Snowflake schemas)
+- Data Lake Architecture (Delta Lake, Iceberg)
+- Data Modeling & Normalization
+- Query Optimization & Indexing
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-#### 🌐 Full-Stack Development
-Creating end-to-end solutions from database to user interface. Clean code, scalable architecture.
+#### ☁️ Cloud & Distributed Systems
+Deploying data infrastructure on cloud platforms with scalability and cost-efficiency in mind. Infrastructure as code, containerized workloads, automated deployments.
 
 **Focus Areas:**
-- React & Next.js
-- Flask & Node.js
-- Database Design
-- Cloud Deployment (Azure, Firebase)
+- Azure Data Services
+- Docker & Container Orchestration
+- Distributed Computing (Spark, Flink)
+- CI/CD for Data Pipelines
 
 </td>
 <td width="50%">
 
-#### 🔬 Research & Innovation
-Always exploring new technologies and methodologies. Passionate about pushing boundaries.
+#### 📊 Data Quality & Observability
+Building systems that don't just move data — they validate, test, and document it. Reliable data is the foundation of every good decision.
 
 **Focus Areas:**
-- Algorithm Design
-- Performance Optimization
-- Open Source Contributions
-- Technical Writing
+- Data Validation & Testing
+- Schema Evolution Management
+- Data Lineage & Cataloging
+- SLA Monitoring & Alerting
 
 </td>
 </tr>
@@ -107,6 +113,7 @@ Always exploring new technologies and methodologies. Passionate about pushing bo
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Badr-abba&theme=gruvbox&hide_border=true&area=true" width="100%" alt="Activity Graph"/>
 </div>
+
 ---
 
 <div align="center">
@@ -116,5 +123,5 @@ Always exploring new technologies and methodologies. Passionate about pushing bo
 ---
 
 <p align="center">
-  <i>⚡ "Data is the new oil, but insights are the new gold." ⚡</i>
+  <i>⚡ "Bad data in, bad decisions out — pipelines are the foundation of everything." ⚡</i>
 </p>
