@@ -39,20 +39,6 @@ automation    delivery         CI/CD, GitOps, configuration management          
 observability monitoring       metrics, logs, alerting, SLOs                      Running
 ```
 
-## The loop
-
-```mermaid
-flowchart LR
-    A[Code<br/>Git] --> B[Build & test<br/>CI]
-    B --> C[Provision<br/>IaC]
-    C --> D[Deploy<br/>containers / K8s]
-    D --> E[Run<br/>data pipelines]
-    E --> F[Observe<br/>metrics · logs · alerts]
-    F -->|feedback| A
-```
-
-Nothing is clicked by hand: infrastructure is declared, pipelines are versioned, deployments are triggered by commits, and every layer exposes what it is doing.
-
 ## How I work
 
 - **Everything as code**: infrastructure, configuration, pipelines and dashboards live in Git and are reviewable.
