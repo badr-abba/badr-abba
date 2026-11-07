@@ -1,43 +1,72 @@
-<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:0b1220,100:0f766e&height=170&section=header&text=Badreddine%20ABBA&fontSize=40&fontColor=f1f5f9&fontAlignY=45&desc=Cloud%20%C2%B7%20DevOps%20%C2%B7%20Big%20Data&descSize=16&descAlignY=68&descColor=99f6e4" alt="Badreddine ABBA - Cloud, DevOps, Big Data" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:0b1220,100:0f766e&height=170&section=header&text=Badreddine%20ABBA&fontSize=40&fontColor=f1f5f9&fontAlignY=45&desc=Automate%20everything%20%C2%B7%20Observe%20everything&descSize=16&descAlignY=68&descColor=99f6e4" alt="Badreddine ABBA - Automate everything, observe everything" width="100%" />
+
+<p align="center">
+  <b>Cloud · Data Engineering · Automation</b><br/>
+  <i>If it runs twice, it gets automated. If it runs at all, it gets observed.</i>
+</p>
 
 ## My profile, as a Dockerfile
 
 ```dockerfile
-FROM engineer:cloud-devops-bigdata
+FROM engineer:cloud-data-automation
 
 LABEL name="Badreddine ABBA"
-LABEL role="Cloud, DevOps & Big Data Engineer"
+LABEL role="Cloud & Data Engineer"
 LABEL github="badr-abba"
 
-ENV FOCUS="cloud devops bigdata"
+ENV FOCUS="cloud data-engineering automation observability"
 ENV MINDSET="automate everything, observe everything"
 
-WORKDIR /pipelines
+WORKDIR /platform
 
-COPY ./infrastructure ./as-code
-COPY ./bigdata ./trusted
+COPY ./infrastructure ./as-code        # Terraform, Ansible, cloud-init
+COPY ./pipelines      ./reproducible   # ingestion, transformation, quality
+COPY ./observability  ./always-on      # metrics, logs, alerts, dashboards
 
 HEALTHCHECK --interval=1d CMD curiosity --still-running
 
-CMD ["design", "build", "ship", "observe"]
+CMD ["provision", "ingest", "transform", "ship", "observe", "repeat"]
 ```
 
 ## What's running
 
 ```console
 $ kubectl get focus
-NAME     LAYER            WHAT I DO                                   STATUS
-cloud    infrastructure   architecture, IaC, security                 Running
-devops   delivery         CI/CD, containers, monitoring               Running
-bigdata  pipelines        ingestion, distributed processing, quality  Running
+NAME          LAYER            WHAT I DO                                          STATUS
+cloud         infrastructure   architecture, IaC, virtualization, security        Running
+data          pipelines        ingestion, batch & streaming, data quality         Running
+automation    delivery         CI/CD, GitOps, configuration management            Running
+observability monitoring       metrics, logs, alerting, SLOs                      Running
 ```
+
+## The loop
+
+```mermaid
+flowchart LR
+    A[Code<br/>Git] --> B[Build & test<br/>CI]
+    B --> C[Provision<br/>IaC]
+    C --> D[Deploy<br/>containers / K8s]
+    D --> E[Run<br/>data pipelines]
+    E --> F[Observe<br/>metrics · logs · alerts]
+    F -->|feedback| A
+```
+
+Nothing is clicked by hand: infrastructure is declared, pipelines are versioned, deployments are triggered by commits, and every layer exposes what it is doing.
+
+## How I work
+
+- **Everything as code**: infrastructure, configuration, pipelines and dashboards live in Git and are reviewable.
+- **Reproducible by default**: same inputs, same environment, same result, from a local VM to the cloud.
+- **Data you can trust**: ingestion, validation and quality checks are part of the pipeline, not an afterthought.
+- **Observable from day one**: metrics, logs and alerts ship with the service, not after the first incident.
+- **Small, frequent, safe changes**: automated tests, automated rollbacks, boring deployments.
 
 <!--
   STACK: add only what you really use, then uncomment.
   Icons: https://github.com/tandpfun/skill-icons#icons-list
 
   ## Stack
-  <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,terraform,githubactions,python,sql&theme=dark" alt="Stack" />
+  <img src="https://skillicons.dev/icons?i=aws,azure,gcp,terraform,ansible,docker,kubernetes,githubactions,linux,bash,python,sql,postgres,spark,kafka,airflow,prometheus,grafana&theme=dark" alt="Stack" />
 -->
 
 ## Build stats
