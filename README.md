@@ -58,7 +58,6 @@ observability monitoring       metrics, logs, alerting, SLOs                    
 ## Build stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=badr-abba&show_icons=true&hide_border=true&bg_color=0b1220&title_color=2dd4bf&text_color=cbd5e1&icon_color=2dd4bf" alt="GitHub stats" height="150" />
   <img src="https://streak-stats.demolab.com?user=badr-abba&hide_border=true&background=0b1220&stroke=2dd4bf&ring=2dd4bf&fire=2dd4bf&currStreakLabel=cbd5e1&sideLabels=cbd5e1&currStreakNum=f1f5f9&sideNums=f1f5f9&dates=64748b" alt="GitHub streak" height="150" />
 </p>
 
